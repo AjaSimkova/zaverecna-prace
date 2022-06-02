@@ -1,120 +1,86 @@
 $primary-color: #acb992;
 $secondary-color: #faf8e0;
-$fons:'Playfair Display', serif;
-$color-text:hsla(28, 39%, 6%, 0.707);
+$fons: "Playfair Display", serif;
+$color-text: hsla(28, 39%, 6%, 0.707);
 
-
-
-.container-butter{
-    display:flex;
-    flex-direction: row;
-
-    
+.container-butter {
+  display: flex;
+  flex-direction: row;
 }
 
-.section-butter-one{
-    background-color: $primary-color;
-    display: flex;
-    flex-direction: column;
-    
-   
-   
+.section-butter-one {
+  background-color: $primary-color;
+  display: flex;
+  flex-direction: column;
 }
 
-.section-butter-two{
-    background-color: $secondary-color;
-    flex-direction: column;
-    
-   
-
-   
+.section-butter-two {
+  background-color: $secondary-color;
+  flex-direction: column;
 }
 
-.title-butter{
-    font-size: 36px;
-    color: $color-text;
-    text-align: center;
-    
+.title-butter {
+  font-size: 36px;
+  color: $color-text;
+  text-align: center;
 }
 
-.content-butter-one{
-    font-size: 18px;
-    color:$color-text;
-    margin: 20px;
-  
+.content-butter-one {
+  font-size: 18px;
+  color: $color-text;
+  margin: 20px;
 }
 
-.title-butter-two{
-    font-size: 36px;
-    color: $color-text;
-    text-align: center;
+.title-butter-two {
+  font-size: 36px;
+  color: $color-text;
+  text-align: center;
 }
 
-.content-butter-two{
-    font-size: 18px;
-    color:$color-text;
-    margin: 15px;
+.content-butter-two {
+  font-size: 18px;
+  color: $color-text;
+  margin: 15px;
 }
 
-
-.recipi-butter{
-    font-size: 18x;
-    color:$color-text;
-    margin: 15px;
-    
+.recipi-butter {
+  font-size: 18x;
+  color: $color-text;
+  margin: 15px;
 }
 
-
-.solid-butter{
-    border: solid black ;
-    top:5px;
-    
+.solid-butter {
+  border: solid black;
+  top: 5px;
 }
 
-
-
-@media screen  and (min-width:640px){
-
-    .section-butter-one{
-        min-height: 100vh;
-        
-    }
-.section-butter-two{
+@media screen and (min-width: 640px) {
+  .section-butter-one {
+    min-height: 100vh;
+  }
+  .section-butter-two {
     max-width: 80vh;
     display: flex;
     justify-content: space-around;
-}
-.title-butter{
+  }
+  .title-butter {
     font-size: 56px;
-    
-}
-      
+  }
 
-
-.content-butter-one{
+  .content-butter-one {
     font-size: 24px;
     margin: 10px;
-    
-}
+  }
 
-.title-butter-two{
+  .title-butter-two {
     font-size: 56px;
-   
-}
+  }
 
-.recipi-butter{
+  .recipi-butter {
     font-size: 24px;
     margin: 10px;
-    
-}
-.content-butter-two{
+  }
+  .content-butter-two {
     font-size: 24px;
-    
+  }
 }
-}
-
-
-
-
-   
-    
