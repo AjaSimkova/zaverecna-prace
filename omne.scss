@@ -1,0 +1,97 @@
+$primary-color: #acb992;
+$secondary-color: #faf8e0;
+$fons:'Playfair Display', serif;
+$color-text:hsla(28, 39%, 6%, 0.707);
+
+
+
+.containe-omne{
+    display: flex;
+    
+}
+
+.section-omne-one{
+    background-color: $primary-color;
+   
+    
+}
+
+
+.section-omne-two{
+    background-color: $secondary-color;
+    
+}
+
+
+.title-my{
+    text-align: center;
+    font-size: 72px;
+    color:$color-text;
+   
+}
+
+
+.content-my{
+text-align: left;
+font-size: 18px;
+
+}
+.galerie{
+    font-size: 72px;
+    text-align: center;
+    color: $color-text;
+}
+
+
+.line-my{
+    border:solid black 2px;
+    margin: 10px;
+
+}
+
+.photo-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.photo-omne-one,
+.photo-omne-two{
+    margin-bottom: 15px;
+}
+
+@media screen and (min-width: 639px){
+
+ .title-my{
+     font-size: 72px;
+    
+ }
+
+ .content-my{
+     font-size: 24px;
+     margin: 15px;
+   
+ }
+
+ .galerie{
+     font-size: 72px;  
+     top:10px;
+ }
+
+.photo-me{
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+}
+.photo-omne-one,
+.photo-omne-two,
+.photo-omne-three{
+   margin: 10px;
+   max-width: 30%;
+}
+
+}
+
+
+    

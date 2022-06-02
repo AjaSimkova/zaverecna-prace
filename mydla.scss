@@ -1,0 +1,133 @@
+$primary-color: #acb992;
+$secondary-color: #faf8e0;
+$fons:'Playfair Display', serif;
+$color-text:hsla(28, 39%, 6%, 0.707);
+
+
+
+.container-soap{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+.section-soap-one{
+    background-color: $primary-color;
+    margin-bottom: 0;
+}
+
+.section-soap-two{
+    background-color: $secondary-color;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-soap{
+    text-align: center;
+    color: $color-text;
+    font-size: 36px;
+}
+
+
+.title-soap-made{
+    text-align: center;
+    font-size: 36px;
+    color: $color-text;
+    margin: 15px;
+}
+
+.title-soap-cold{
+    font-size: 36px;
+    margin: 10px;
+    color: $color-text;
+    text-align: center;
+}
+
+.content-soap{
+    display: inline-block;
+    margin: 5px;
+    color:$color-text;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.title-soap-hot{
+    font-size: 36px;
+    margin: 10px;
+    color: $color-text;
+    text-align: center;
+}
+.content-soap-hot{
+    font-size: 18px;
+    margin: 10px;
+    color: $color-text;
+    padding: 10px;
+}
+.title-soap-recipi{
+    font-size: 40px;
+    margin: 10px;
+    color: $color-text;
+    text-align: center;
+}
+.content-recipi{
+    font-size: 18px;
+    margin: 10px;
+    color: $color-text;
+}
+
+.recipi-soap{
+    font-size: 18px;
+    color:$color-text;
+    margin: 10px;
+}
+
+@media screen and (min-width: 640px){
+.section-soap-one{
+
+}
+
+.section-soap-two{
+   
+}
+
+.title-soap{
+    font-size: 72px;
+}
+
+.title-soap-made{
+    font-size: 56px;
+    
+}
+.title-soap-cold{
+    font-size: 36px;
+    
+}
+.title-soap-hot{
+    font-size: 36px;
+    
+}
+.content-soap-hot{
+    font-size: 24px;
+    
+}
+
+.content-soap{
+    font-size: 24px;
+    
+  
+}
+
+.recipi-soap{
+    font-size: 24px;
+    
+}
+.content-recipi{
+    font-size: 24px;
+    margin-bottom: 10px;
+   
+}
+
+}
+
+
+    

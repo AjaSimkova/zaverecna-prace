@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="/css/index.css">
+        {% if css %}
+            <link rel="stylesheet" href="{{css}}" />
+        {% endif %}
+        <title>Adrikatika Natural</title>
+    </head>
+
+    <div class="content">
+        <header>
+            <nav class="menu">
+                <input type="checkbox" class="menu__checkbox" id="menu-checkbox">
+                <label for="menu-checkbox" class="menu__toggler">☰ Menu</label>
+
+                <ul class="menu__list">
+                    <li><a href="/">HLAVNÍ STRÁNKA</a></li>
+                    <li><a href="/omne/">O MNĚ</a></li>
+                    <li><a href="/mydla/">MÝDLA</a></li>
+                    <li><a href="/maslo/">TĚLOVÁ MÁSLA</a></li>
+                    <li><a href="/balzam/">BALZÁM NA RTY</a></li>
+                </ul>
+            </nav>
+        </header>
+        <body>
+            {{ content | safe }}
+        </body>
+        <footer>@2022, Czechia</footer>
+    </div>
+</html>
