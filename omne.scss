@@ -6,30 +6,22 @@ $color-text:hsla(28, 39%, 6%, 0.707);
 
 
 .containe-omne{
-    display: flex;
-    
+    display: flex; 
 }
 
 .section-omne-one{
     background-color: $primary-color;
-   
-    
 }
-
 
 .section-omne-two{
-    background-color: $secondary-color;
-    
+    background-color: $secondary-color;  
 }
-
 
 .title-my{
     text-align: center;
     font-size: 72px;
-    color:$color-text;
-   
+    color:$color-text; 
 }
-
 
 .content-my{
 text-align: left;
@@ -42,11 +34,9 @@ font-size: 18px;
     color: $color-text;
 }
 
-
 .line-my{
     border:solid black 2px;
     margin: 10px;
-
 }
 
 .photo-me{
@@ -64,14 +54,12 @@ font-size: 18px;
 @media screen and (min-width: 639px){
 
  .title-my{
-     font-size: 72px;
-    
+     font-size: 72px;  
  }
 
  .content-my{
      font-size: 24px;
      margin: 15px;
-   
  }
 
  .galerie{

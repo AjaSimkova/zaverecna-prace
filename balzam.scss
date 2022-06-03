@@ -7,7 +7,6 @@ $color-text:hsla(28, 39%, 6%, 0.707);
 .container-balm{
     display:flex;
     flex-direction: column;
-
 }
 
 .section-balm-one{
@@ -16,45 +15,34 @@ $color-text:hsla(28, 39%, 6%, 0.707);
     flex-direction: column; 
 }
 
-
 .section-balm-two{
     background-color: $secondary-color;
-    flex-direction: column;
-  
+   flex-direction: column;
 }
-
-
 
 .title-balm{
     font-size: 36px;
     color:$color-text;
-    text-align: center;
-    
+    text-align: center;   
 }
-
 
 .content-balm-one{
     font-size: 18px;
     margin: 10px;
-    color: $color-text;
-    
+    color: $color-text;   
 }
 
 .title-balm-two{
     font-size: 36x;
     color:$color-text;
-    text-align: center;
-    
-
+    text-align: center;  
 }
 
 .content-balm-two{
     font-size: 18px;
     color:$color-text;
-    margin: 10px;
-    
+    margin: 10px;   
 }
-
 .recipi-balm{
     font-size: 18px;
     margin: 10px;
